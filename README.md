@@ -1,47 +1,84 @@
+Hotel Booking Cancellation Prediction (Machine Learning)
 Project Overview
 
-Hotel booking cancellations and no-shows cause significant revenue loss, especially for last-minute bookings. This project applies machine learning to predict the likelihood of a booking being canceled.
+Hotel booking cancellations and no-shows significantly reduce revenue, particularly for last-minute bookings. This project applies machine learning to predict the likelihood of a booking being canceled before the arrival date.
 
-Using data from INN Hotels Group (Portugal), the project analyzes key factors influencing cancellations, builds predictive models, and provides insights to support data-driven cancellation and refund policies that improve profitability.
+Using real-world data from INN Hotels Group (Portugal), the project uncovers key drivers of cancellations and delivers a predictive model to support smarter pricing, overbooking, and refund policies.
 
-Objectives
+Business Problem
 
-Identify key factors influencing hotel booking cancellations
+High cancellation rates impact hotels through:
 
-Build a machine learning model to predict cancellation risk
+Lost revenue from unsold rooms
 
-Enable proactive decision-making for pricing, overbooking, and refund policies
+Increased distribution and commission costs
 
-Reduce revenue loss caused by last-minute cancellations and no-shows
+Last-minute price reductions that shrink margins
+
+Operational overhead for managing booking changes
+
+The challenge is to proactively identify high-risk bookings and act before revenue is lost.
+
+Project Objectives
+
+Analyze historical booking data to identify cancellation patterns
+
+Engineer features that capture customer behavior and booking risk
+
+Build and evaluate machine learning models for cancellation prediction
+
+Translate model insights into actionable business recommendations
 
 Dataset
 
-The dataset contains historical hotel booking records, including:
+The dataset consists of historical hotel booking records, including:
 
-Booking and stay details
+Lead time, stay duration, and booking dates
 
-Customer and channel characteristics
+Customer and market segment information
 
-Pricing, lead time, and deposit information
+Distribution channel and deposit type
 
-Booking status (canceled or not canceled)
+Pricing variables and special requests
 
-Approach
+Booking outcome (canceled vs. not canceled)
+
+Technical Approach
 
 Data cleaning and preprocessing
 
-Exploratory data analysis to identify cancellation patterns
+Exploratory data analysis (EDA) to uncover trends and risk factors
 
 Feature engineering and selection
 
-Model training and evaluation
+Model training, tuning, and evaluation
 
-Interpretation of results and business insights
+Interpretation of results using business-focused metrics
 
-Expected Outcomes
+Results & Impact
 
-A predictive model that identifies high-risk cancellations in advance
+Built a predictive model capable of identifying high-risk cancellations in advance
 
-Insights into behavioral and booking-related drivers of cancellations
+Identified key drivers such as lead time, deposit type, and booking channel
 
-Recommendations for more effective cancellation and refund policies
+Generated insights to support dynamic pricing, targeted overbooking, and refined cancellation policies
+
+Skills Demonstrated
+
+Machine Learning & Predictive Modeling
+
+Exploratory Data Analysis & Feature Engineering
+
+Business-driven analytics and decision support
+
+Model evaluation and interpretation
+
+Translating data insights into operational strategy
+
+Tools & Technologies
+
+Python (Pandas, NumPy, Scikit-learn)
+
+Data visualization (Matplotlib, Seaborn)
+
+Jupyter Notebook
